@@ -1,0 +1,21 @@
+.body{
+    background-color: red;
+}
+
+.hd{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #E7DfDD;
+    background-color: rgb(23, 17, 37);
+    padding: 20px;
+    margin: 5px;
+
+}
+.nameplate{
+    font-size: 50px;
+}
+
+.hl{
+    color: #A239CA;
+    font-size: 30px;
+}
