@@ -1,27 +1,43 @@
-body{
+body,html{
+    height:100%;
+    min-height:100%;
+    margin:0;
+    padding:0;
+    background-color: rgb(23, 17, 37);
+}
+
+
+.bg{
     background-image: url('Asset/images/Portfolio Mockup.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
+hr{
+    border-color: white;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+}
 .hd{
     height: 100%;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #E7DfDD;
     background-color: rgba(23, 17, 37,0.5);
-    padding: 20px;
+    padding: 30%;
     margin: 5px;
 
 }
 .nameplate{
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .hl{
     color: #A239CA;
-    font-size: 30px;
+    font-size: 70px;
 }
 
 
@@ -30,6 +46,9 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+}
+col{
+    padding:5px;
 }
 
 td, th {
@@ -41,3 +60,22 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+.shift{
+    padding-top: 10%;
+}
+.display{
+
+    text-align: center;
+    font-size: 200px;
+
+    border-style: solid;
+    border-radius: 50px;
+    border-color: black;
+}
+
+
+.arrow {
+    background: rgba(0,0,0,0);
+    border : none;
+    font-size: 60px;
+  }

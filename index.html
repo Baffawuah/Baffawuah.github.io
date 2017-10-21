@@ -1,15 +1,18 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css" >
+    <link rel="stylesheet" href="Asset\font-awesome-4.7.0\css\font-awesome.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
+    <script src ="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src ="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src ="/index.js"></script>
+    <script src ="index.js"></script>
 
 </head>
 
 <body>
+  <div class = "bg">
     <div class = 'container'>
         <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,13 +42,16 @@
     <div class = "hd">
         <h1></h1>
 
-        <h2>Hey I make webpages for fun, Hire me.</h2>
-
+        <h2>Hey, I make webpages for fun. Hire me.</h2>
+        <br>
+        <hr>
 
         <p class ="nameplate">Kwame <span class = "hl">Awuah</span></p>
+        <!--  Down Arrow with bounce animation-->
+        <button class ="arrow "><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
     </div>
         <!-- Type in Section, don't worry we'll figure it out, it'll be dope-->
-    <div class= "jumbotron"> 
+    <div class= "jumbotron about"> 
         <p>A newly graduated computer Science major with the desire to get into the front end developement
         work field! Currently based in Atlanta but more than willing to relocate in order to persue my career and Looking forward to working with you</p>
 
@@ -53,53 +59,46 @@
         <!-- TABLE STARTS-->
         <div class = "row">
           <!-- This is where I will place the other section of the   -->
-          <div class = "col"> oh dafdfasfaf a</div>
+          <div class = "col-4 display">
+            <i class="shift fa fa-bar-chart" aria-hidden="true"></i>
+          </div>
           <div class = "col">
               <table>
                 <tr>
                   <th>Skill Name</th>
                   <th>Time Used</th>
-                  <th>??</th>
                 </tr>
                 <tr>
                   <td>Java</td>
                   <td>3+ years</td>
-                  <td>--</td>
                 </tr>
                 <tr>
-                  <td>Android Developement</td>
+                  <td>Android Development</td>
                   <td>2 years</td>
-                  <td>--</td>
                 </tr>
                 <tr>
                   <td>C++</td>
                   <td>2 years</td>
-                  <td>--</td>
                 </tr>
                 <tr>
                   <td>HTML5</td>
                   <td>2 years</td>
-                  <td>--</td>
                 </tr>
                 <tr>
                   <td>Javascript</td>
                   <td>2 years</td>
-                  <td>--</td>
                 </tr>
                 <tr>
                   <td>css</td>
                   <td>2 years</td>
-                  <td>--</td>
                 </tr>
                 <tr>
                     <td>PHP</td>
                     <td>1 year</td>
-                    <td>--</td>
                 </tr>
                 <tr>
                     <td>SQL</td>
                     <td>1 year</td>
-                    <td>--</td>
                 </tr>
               </table>
             </div>
@@ -115,9 +114,10 @@
     </div>
 
 
-    <div>
+    <div class = "jumbotron">
         <h2>Contact me!</h2>
     </div>
 
+</div>
 </div>
 </body>
