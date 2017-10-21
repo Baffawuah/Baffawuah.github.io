@@ -1,5 +1,8 @@
-.body{
-    background-color: red;
+body{
+    background-image: url('Asset/images/Portfolio Mockup.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .hd{
@@ -7,7 +10,7 @@
     font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #E7DfDD;
-    background-color: rgb(23, 17, 37);
+    background-color: rgba(23, 17, 37,0.5);
     padding: 20px;
     margin: 5px;
 
