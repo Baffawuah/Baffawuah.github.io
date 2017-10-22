@@ -8,3 +8,13 @@ $(document).ready(function(){
         }, 1000);
     });
 })
+
+
+class project{
+    constructor(name, url, description){
+        this.name = name;
+        this.url = url;
+        this.description = description;
+    }
+
+}

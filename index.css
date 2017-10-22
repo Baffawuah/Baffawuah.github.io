@@ -78,4 +78,5 @@ tr:nth-child(even) {
     background: rgba(0,0,0,0);
     border : none;
     font-size: 60px;
+    color: #E7DfDD;
   }
