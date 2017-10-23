@@ -3,6 +3,7 @@
 $(document).ready(function(){
     console.log('asuh');
 
+    $('#fullpage').fullpage();
 
     $(".arrow").click(function() {
         console.log('click function is working');
@@ -14,10 +15,11 @@ $(document).ready(function(){
 
 
 
+
 //Type Writing class
 document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
-    var dataText = [ "How's it going? ", "The name is : ", "I love web design ", "Hire me ;) "];
+    var dataText = [ "How's it going? ", "The name is : ", "I love web design ", 'Hire me ;)'];
     
     // type one text in the typwriter
     // keeps calling itself until the text is finished
@@ -30,7 +32,7 @@ document.addEventListener('DOMContentLoaded',function(event){
         // wait for a while and call this function again for next character
         setTimeout(function() {
           typeWriter(text, i + 1, fnCallback)
-        }, 120);
+        }, 130);
       }
       // text finished, call callback if there is a callback function
       else if (typeof fnCallback == 'function') {

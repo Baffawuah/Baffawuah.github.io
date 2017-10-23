@@ -1,212 +1,219 @@
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css" >
-    <link rel="stylesheet" href="Asset\font-awesome-4.7.0\css\font-awesome.min.css">
+        <link rel="stylesheet" href="Asset\fullpage\jquery.fullPage.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css" >
+        <link rel="stylesheet" href="Asset\font-awesome-4.7.0\css\font-awesome.min.css">
+    
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        
+        <script src ="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script src="Asset\fullpage\vendors\jquery.easings.min.js"></script>
+        <script src="Asset\fullpage\vendors\scrolloverflow.min.js"></script>
+        <script src="Asset\fullpage\jquery.fullPage.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src ="index.js"></script>    
+</head>
 
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
-    <script src="Asset\typed.js-master\src\typed.js"></script>
-    <script src ="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src ="index.js"></script>
+<body >
+
+    
+    <div id = 'fullpage'>
+        <div>
+
+            <div class = 'section bg'>
+                <div class = 'container'>
+                    <div class = "hd front ">
+                                <br>
+                                <h1>Hire me ;)</h1>
+                        
+                        
+                        
+                                <br>
+                                <hr>
+                        
+                    <p class ="nameplate">Kwame <div class = "hl">Awuah</div></p>
+                                <!--  Down Arrow with bounce animation-->
+                                <!--<button class ="arrow "><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>-->
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class ="section about">
+                <div class="container">
+                    <div class= " section"> 
+                            <h2 class = "text-center">About Me:</h2>
+                                <br>
+                                <p>I am a newly graduated Computer Science Major from Georgia Southern with the desire to get into Front End Development.
+                                Currently based in Atlanta but more than willing to relocate in order to persue my career and looking forward to working with you!</p>
+                                <p>I grew up on the arts as a Classically trained painter and a self taught musician, I enjoy trying to make artistic visions occur within the boundaries of technology. </p>
+                                  <br>
+                                  
+                                <h2 class ="text-center">Current skill set includes:</h2>
+                                <br>
+                                <!-- TABLE STARTS-->
+                                <div class = "row">
+                                  <!-- This is where I will place the other section of the   -->
+                                  <div class = "col-4 display">
+                                    <i class="shift fa fa-bar-chart" aria-hidden="true"></i>
+                                  </div>
+                                  
+                                <div class = "col">
+                                      <table>
+                                        <tr>
+                                          <th>Skill Name</th>
+                                          <th>Time Used</th>
+                                        </tr>
+                                        <tr>
+                                          <td>Java</td>
+                                          <td>3+ years</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Android Development</td>
+                                          <td>2 years</td>
+                                        </tr>
+                                        <tr>
+                                          <td>C++</td>
+                                          <td>2 years</td>
+                                        </tr>
+                                        <tr>
+                                          <td>HTML5</td>
+                                          <td>2 years</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Javascript</td>
+                                          <td>2 years</td>
+                                        </tr>
+                                        <tr>
+                                          <td>css</td>
+                                          <td>2 years</td>
+                                        </tr>
+                                        <tr>
+                                          <td>TypeScript</td>
+                                          <td>1 year</td>
+                                      </tr>
+                                        <tr>
+                                            <td>PHP</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SQL</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                      </table>
+                                </div>
+                              </div>
+                                <!-- TABLE ENDS  -->
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Projects list -->
+            <div class = 'section portfolio'>
+                
+                <div class = 'slide'>
+                    <div class = 'container'>
+                      
+                        <h2>Examples of Personal work:</h2>
+                        
+                                <!-- Starts down here -->
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <div class="card">
+                                    <img class = "card-img-top" src="\Asset\images\Simon.png"> 
+                                      <div class="card-block">
+                                        <h3 class="card-title">Simon Game</h3>
+                                        <p class="card-text">A simple Simon Game using jquery, functioning sounds. includes 'strict' mode.</p>
+                                        <a href="https://codepen.io/Esrue/full/WZJRPa/" class="btn btn-primary">Go Play with it</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <div class="card">
+                                        <img class = "card-img-top" src="\Asset\images\Twitch.png"> 
+                        
+                                      <div class="card-block">
+                                        <h3 class="card-title">Twitch API Test</h3>
+                                        <p class="card-text">Using the Twitch API to see who is online and streaming, and who isn't</p>
+                                        <a href="https://codepen.io/Esrue/full/mMNJXm/" class="btn btn-primary">Go watch a stream</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                    </div>        
+                </div>
+                                <br>
+                                 <!-- Starts down here -->
+                <div class ="slide">
+                    <div class = 'container'>
+                                 <div class="row">
+                                  <div class="col-sm-6">
+                                    <div class="card">
+                        
+                                      <img class = "card-img-top" src="\Asset\images\Pomo.png"> 
+                        
+                                      <div class="card-block">
+                                        <h3 class="card-title">Pomodoro Clock</h3>
+                                        <p class="card-text">A super simple Pomodoro clock that just counts down and cycles through the settings you give it</p>
+                                        <a href="https://codepen.io/Esrue/full/veRZmx/" class="btn btn-primary">Go Check it out</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <div class="card">
+                                        <img class = "card-img-top" src="\Asset\images\Wiki.png"> 
+                        
+                                      <div class="card-block">
+                                        <h3 class="card-title">Wiki Search API</h3>
+                                        <p class="card-text">Having fun with the Wiki Search API in order to make an external search box</p>
+                                        <a href="https://codepen.io/Esrue/full/EwvYbW/" class="btn btn-primary">Go look something up</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                    </div>
+                               
+                </div>
+            </div>
+                
+            
+
+
+
+            <div class = 'section'>
+                <div class = '' >
+                    <div class = "jumbotron">
+                                <h2>Contact me!</h2>
+                        
+                                <p>Email me at: Baffawuah@gmail.com</p>
+                        
+                        <div class = "row">
+                                    <!-- This is where I will place the other section of the   -->
+                                   
+                            <div class = "col">
+                                        <table>
+                                          <tr>
+                                            <th class = 'text-center'>Github</th>
+                                            <th class = 'text-center'>Linked In</th>
+                                            <th class = 'text-center'>FreeCodeCamp</th>
+                                          </tr>
+                                          
+                                        </table>
+                            </div>
+                         </div>   
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 
 
     
-</head>
-
-<body>
-  <div class = "bg">
-    <div class = 'container'>
-        <nav class="nav navbar navbar-toggleable-md navbar-light bg-faded">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">Navbar</a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-
-    <!-- This is the first section, probably going to follow my resume format-->
-
-    <div class = "hd front">
-        <h1></h1>
-
-
-
-        <br>
-        <hr>
-
-        <p class ="nameplate">Kwame <div class = "hl">Awuah</div></p>
-        <!--  Down Arrow with bounce animation-->
-        <button class ="arrow "><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
-    </div>
-        <!-- Type in Section, don't worry we'll figure it out, it'll be dope-->
-    <div class= "jumbotron about"> 
-        <h2>About Me:</h2>
-        <p>I'm a newly graduated Computer Science Major from Georgia Southern with the desire to get into the Front End Development.
-        work field! Currently based in Atlanta but more than willing to relocate in order to persue my career and looking forward to working with you!</p>
-        <p>Grew up on the arts as a Classically trained painter and a self taught musician, I enjoy trying to make artistic visions occur within the boundaries of technology. </p>
-          <br>
-          <br>
-        <h2 class ="text-center">Current skill set includes:</h2>
-        <br>
-        <!-- TABLE STARTS-->
-        <div class = "row">
-          <!-- This is where I will place the other section of the   -->
-          <div class = "col-4 display">
-            <i class="shift fa fa-bar-chart" aria-hidden="true"></i>
-          </div>
-          <div class = "col">
-              <table>
-                <tr>
-                  <th>Skill Name</th>
-                  <th>Time Used</th>
-                </tr>
-                <tr>
-                  <td>Java</td>
-                  <td>3+ years</td>
-                </tr>
-                <tr>
-                  <td>Android Development</td>
-                  <td>2 years</td>
-                </tr>
-                <tr>
-                  <td>C++</td>
-                  <td>2 years</td>
-                </tr>
-                <tr>
-                  <td>HTML5</td>
-                  <td>2 years</td>
-                </tr>
-                <tr>
-                  <td>Javascript</td>
-                  <td>2 years</td>
-                </tr>
-                <tr>
-                  <td>css</td>
-                  <td>2 years</td>
-                </tr>
-                <tr>
-                  <td>TypeScript</td>
-                  <td>1 year</td>
-              </tr>
-                <tr>
-                    <td>PHP</td>
-                    <td>1 year</td>
-                </tr>
-                <tr>
-                    <td>SQL</td>
-                    <td>1 year</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        <!-- TABLE ENDS  -->
-
-
-    </div>
-    <div class ="HD portfolio">
-        <h2>Examples of Personal work:</h2>
-        <br>
-        <br>
-        <!-- Starts down here -->
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card">
-                <img class = "card-img-top" src="\Asset\images\Simon.png"> 
-
-              <div class="card-block">
-                <h3 class="card-title">Simon Game</h3>
-                <p class="card-text">A simple Simon Game using jquery, functioning sounds. includes 'strict' mode.</p>
-                <a href="https://codepen.io/Esrue/full/WZJRPa/" class="btn btn-primary">Go Play with it</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-                <img class = "card-img-top" src="\Asset\images\Twitch.png"> 
-
-              <div class="card-block">
-                <h3 class="card-title">Twitch API Test</h3>
-                <p class="card-text">Using the Twitch API to see who is online and streaming, and who isn't</p>
-                <a href="https://codepen.io/Esrue/full/mMNJXm/" class="btn btn-primary">Go watch a stream</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <br>
-         <!-- Starts down here -->
-         <div class="row">
-          <div class="col-sm-6">
-            <div class="card">
-
-              <img class = "card-img-top" src="\Asset\images\Pomo.png"> 
-
-              <div class="card-block">
-                <h3 class="card-title">Pomodoro Clock</h3>
-                <p class="card-text">A super simple Pomodoro clock that just counts down and cycles through the settings you give it</p>
-                <a href="https://codepen.io/Esrue/full/veRZmx/" class="btn btn-primary">Go Check it out</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-                <img class = "card-img-top" src="\Asset\images\Wiki.png"> 
-
-              <div class="card-block">
-                <h3 class="card-title">Wiki Search API</h3>
-                <p class="card-text">Having fun with the Wiki Search API in order to make an external search box</p>
-                <a href="https://codepen.io/Esrue/full/EwvYbW/" class="btn btn-primary">Go look something up</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <h2>Work References</h2>
-       
-    </div>
-
-
-    <div class = "jumbotron">
-        <h2>Contact me!</h2>
-
-        <p>Email me at: Baffawuah@gmail.com</p>
-
-        <div class = "row">
-            <!-- This is where I will place the other section of the   -->
-           
-            <div class = "col">
-                <table>
-                  <tr>
-                    <th class = 'text-center'>Github</th>
-                    <th class = 'text-center'>Linked In</th>
-                    <th class = 'text-center'>FreeCodeCamp</th>
-                  </tr>
-                  
-                </table>
-              </div>
-         </div>
-       
-    </div>
-
-</div>
-</div>
-
-
 </body>
