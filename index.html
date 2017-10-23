@@ -5,16 +5,19 @@
 
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
+    <script src="Asset\typed.js-master\src\typed.js"></script>
     <script src ="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src ="index.js"></script>
 
+
+    
 </head>
 
 <body>
   <div class = "bg">
     <div class = 'container'>
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <nav class="nav navbar navbar-toggleable-md navbar-light bg-faded">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -39,21 +42,24 @@
 
     <!-- This is the first section, probably going to follow my resume format-->
 
-    <div class = "hd">
+    <div class = "hd front">
         <h1></h1>
 
-        <h2>Hey, I make webpages for fun. Hire me.</h2>
+
+
         <br>
         <hr>
 
-        <p class ="nameplate">Kwame <span class = "hl">Awuah</span></p>
+        <p class ="nameplate">Kwame <div class = "hl">Awuah</div></p>
         <!--  Down Arrow with bounce animation-->
         <button class ="arrow "><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
     </div>
         <!-- Type in Section, don't worry we'll figure it out, it'll be dope-->
     <div class= "jumbotron about"> 
-        <p>A newly graduated computer Science major with the desire to get into the front end developement
+        <h2>About Me!</h2>
+        <p>I'm newly graduated computer Science major with the desire to get into the front end developement
         work field! Currently based in Atlanta but more than willing to relocate in order to persue my career and Looking forward to working with you</p>
+        <p>Classically taught artist who is overjoyed </p>
 
         <p>Current skill set includes:</p>
         <!-- TABLE STARTS-->
@@ -93,6 +99,10 @@
                   <td>2 years</td>
                 </tr>
                 <tr>
+                  <td>TypeScript</td>
+                  <td>1 year</td>
+              </tr>
+                <tr>
                     <td>PHP</td>
                     <td>1 year</td>
                 </tr>
@@ -107,18 +117,77 @@
 
 
     </div>
-    <div class ="HD">
+    <div class ="HD portfolio">
         <h2>Examples of Personal work:</h2>
+        <br>
+        <br>
+        <!-- Starts down here -->
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+                <img class = "card-img-top" src="\Asset\images\Simon.png"> 
 
+              <div class="card-block">
+                <h3 class="card-title">Simon Game</h3>
+                <p class="card-text">A simple Simon Game using jquery, functioning sounds. includes 'strict' mode.</p>
+                <a href="https://codepen.io/Esrue/full/WZJRPa/" class="btn btn-primary">Go Play with it</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+                <img class = "card-img-top" src="\Asset\images\Twitch.png"> 
 
+              <div class="card-block">
+                <h3 class="card-title">Twitch API Test</h3>
+                <p class="card-text">Using the Twitch API to see who is online and streaming, and who isn't</p>
+                <a href="https://codepen.io/Esrue/full/mMNJXm/" class="btn btn-primary">Go watch a stream</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+         <!-- Starts down here -->
+         <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+
+              <img class = "card-img-top" src="\Asset\images\Pomo.png"> 
+
+              <div class="card-block">
+                <h3 class="card-title">Pomodoro Clock</h3>
+                <p class="card-text">A super simple Pomodoro clock that just counts down and cycles through the settings you give it</p>
+                <a href="https://codepen.io/Esrue/full/veRZmx/" class="btn btn-primary">Go Check it out</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+                <img class = "card-img-top" src="\Asset\images\Wiki.png"> 
+
+              <div class="card-block">
+                <h3 class="card-title">Wiki Search API</h3>
+                <p class="card-text">Having fun with the Wiki Search API in order to make an external search box</p>
+                <a href="https://codepen.io/Esrue/full/EwvYbW/" class="btn btn-primary">Go look something up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <h2>Work References</h2>
+       
     </div>
 
 
     <div class = "jumbotron">
         <h2>Contact me!</h2>
-        Email: Baffawuah@gmail.com
+       
     </div>
 
 </div>
 </div>
+
+
 </body>

@@ -4,8 +4,8 @@ body,html{
     margin:0;
     padding:0;
     background-color: rgb(23, 17, 37);
-}
 
+}
 
 .bg{
     background-image: url('Asset/images/Portfolio Mockup.png');
@@ -15,6 +15,26 @@ body,html{
 
 }
 
+.portfolio{
+    padding: 10%;
+}
+
+.card{
+    border: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #E7DfDD;
+    background-color: #676EB0;
+    color:#E7DfDD;
+}
+
+.card-img-top{
+    max-height: 28%;
+    border-bottom: solid;
+}
+
+
+
 hr{
     border-color: white;
     border-width: 5px;
@@ -22,11 +42,15 @@ hr{
     margin: 5px;
 }
 .hd{
-    height: 100%;
+
     font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #E7DfDD;
     background-color: rgba(23, 17, 37,0.5);
+
+
+}
+.front{
     padding: 30%;
     margin: 5px;
 
@@ -79,4 +103,17 @@ tr:nth-child(even) {
     border : none;
     font-size: 60px;
     color: #E7DfDD;
+  }
+
+
+  span {
+    border-color: orange;
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
   }
