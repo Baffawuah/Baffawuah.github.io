@@ -74,7 +74,7 @@ hr{
 
 }
 .title{
-    font-size: 2.3em;
+    font-size: 2em;
 }
 .avi{
     height:20%;
@@ -111,13 +111,22 @@ table {
 }
 col{
     padding:5px;
+    border-width: 5px;
+    border: solid;
+    border-color: white;
 }
-
+.trow{
+    border-right: solid;
+    border-left: solid;
+    border-width: 3px;
+    border-color:#A239CA;
+}
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
+
 
 tr:nth-child(even) {
     background-color: #dddddd;
