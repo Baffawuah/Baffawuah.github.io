@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Creepster");
 
+
 body,
 html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.5;
-  color: #000;
+    font-family: 'Droid Sans Mono', monospace;
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.5;
+    font-size: 1.15em;
+    color: rgb(8, 7, 46);
 }
 
 p {
   font-family: monospace;
-  max-width: 25rem;
+    font-size: 1.2em;
 }
 
 .bgimg-1,
@@ -24,7 +27,7 @@ p {
 }
 .bgimg-1 {
   background-image: url("/Asset/images/Ryan-1.png");
-  min-height: 100%;
+  min-height: 80%;
 }
 
 .bgimg-2 {
@@ -46,8 +49,12 @@ p {
   color: #000;
 }
 
+.border{
+    color: rgba(0, 0,0, 0.5);
+}
+
 .caption span.border {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.397);
   color: whitesmoke;
   padding: 18px;
   font-size: 45px;
@@ -57,7 +64,7 @@ p {
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px monospace;
+  font: 3em monospace;
   color: #000;
 }
 
