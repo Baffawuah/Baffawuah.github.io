@@ -147,7 +147,7 @@ tr:nth-child(odd){
   }
 
 
-  span {
+  .type {
     border-color: orange;
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
