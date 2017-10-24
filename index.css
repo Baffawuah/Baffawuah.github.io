@@ -3,6 +3,7 @@ body,html{
     background-color: rgb(23, 17, 37);
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    overflow: visible;
 
 }
 
@@ -36,7 +37,7 @@ body,html{
 }
 
 .card-img-top{
-    max-height: 10%;
+    max-height: 50%;
     border-bottom: solid;
 }
 
@@ -70,7 +71,9 @@ hr{
     border-radius: 10px;
 }
 
-
+.card{
+    height:800px;
+}
 .nameplate{
     font-size: 100px;
 }
