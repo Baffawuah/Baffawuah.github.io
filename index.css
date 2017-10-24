@@ -69,6 +69,11 @@ hr{
     background-color: #A239CA;
     padding: 20px;
     border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.about:h1{
+    
 }
 
 .card{
