@@ -3,10 +3,13 @@ body,html{
     width: 100%;
     background-color: rgb(23, 17, 37);
     font-family: 'Oswald', sans-serif;
-    font-size: 100%;
+    font-size: 3vh;
     overflow: scroll;
     
 
+}
+body h1{
+    font-size: 3.8vh;
 }
 
 .bg{
@@ -19,10 +22,6 @@ body,html{
     background-size: cover;
     background-position: center;
 
-}
-
-.portfolio{
-    background-color: #c8e19d;
 }
 
 .card{
@@ -62,15 +61,14 @@ hr{
 
 
 .about{
-
     color: #E7DfDD;
     background-color: #676EB0;
-    font-size: 2.5vh;
+
 }
 
 
 .title{
-    font-size: 200%;
+
 }
 .avi{
     height:20%;
@@ -83,17 +81,16 @@ hr{
 }
 
 .card{
-    font-size: 1%;
     height:700px;
     width:440px;
 }
 .nameplate{
-    font-size: 10vh;
+
 }
 
 .hl{
     color: #A239CA;
-    font-size: 7vh;
+
 }
 
 .section{
@@ -132,7 +129,7 @@ col{
 .display{
 
     text-align: center;
-    font-size: 200px;
+
 
     border-style: solid;
     border-radius: 50px;
@@ -140,25 +137,25 @@ col{
 }
 
 .contactpin{
-    font-size:30px; 
+
 }
 .contacttbl{
     border-color: black;
     border: solid;
-    font-size: 30px;
+
     height: 100px;
 }
 
 .arrow {
     background: rgba(0,0,0,0);
     border : none;
-    font-size: 60px;
+
     color: #E7DfDD;
   }
 
 
   .type {
-    font-size:5vh;
+
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
   }
@@ -170,10 +167,31 @@ col{
   }
 
   .table{
-      font-size: 1.8vw;
-      table-layout: fixed; 
-      width: 105vh;
+
   }
+  
+.portfolio{
+    background-color: #c8e19d;
+
+}
+
   .portfolio h1{
-      font-size: 2.8vw;
+
+  }
+
+  @media screen and (max-width: 780px){
+    body,html{
+        height:100%;
+        width: 100%;
+        background-color: rgb(23, 17, 37);
+        font-family: 'Oswald', sans-serif;
+        font-size: 3vw;
+        overflow: scroll;
+        
+    
+    }
+    body h1{
+        font-size: 3.2vw;
+    }
+
   }
