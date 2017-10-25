@@ -66,7 +66,6 @@ hr{
 
     color: #E7DfDD;
     background-color: #676EB0;
-    padding: 20px;
     border-radius: 10px;
     font-size: 3vh;
 }
@@ -78,7 +77,7 @@ hr{
 .avi{
     height:20%;
     border: solid;
-    border-width: 8px;
+    border-width: 1vh;
     border-color: #8BCFF4;
     border-radius: 100%;
     margin-bottom: 12px;
@@ -164,4 +163,11 @@ col{
     50% {
       border-color: transparent;
     }
+  }
+
+  .table{
+      font-size: 2.5vh;
+  }
+  .portfolio h1{
+      font-size: 3.2vh;
   }
