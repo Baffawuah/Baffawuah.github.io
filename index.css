@@ -69,15 +69,12 @@ hr{
     background-color: #676EB0;
     padding: 20px;
     border-radius: 10px;
-    font-size: 180%;
+    font-size: 165%;
 }
 
-.about:h2{
-    font-size: 2em;
 
-}
 .title{
-    font-size: 2em;
+    font-size: 200%;
 }
 .avi{
     height:20%;
@@ -85,6 +82,7 @@ hr{
     border-width: 8px;
     border-color: #8BCFF4;
     border-radius: 100%;
+    margin-bottom: 12px;
 
 }
 
