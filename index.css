@@ -22,7 +22,6 @@ body,html{
 }
 
 .portfolio{
-    padding: 10%;
     background-color: #c8e19d;
 }
 
@@ -103,12 +102,18 @@ hr{
     width: 100%;
 }
 .tnail{
+    margin-top: 15px;
     width: 100%;
+    border: solid;
+    border-color: #A239CA;
+    border-radius: 1vh;
 }
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    border: solid;
+    border-color: red;
 }
 col{
     padding:5px;
@@ -169,5 +174,5 @@ col{
       font-size: 2.5vh;
   }
   .portfolio h1{
-      font-size: 3.2vh;
+      font-size: 3.3vh;
   }
