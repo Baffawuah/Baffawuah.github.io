@@ -185,7 +185,7 @@ col{
         width: 100%;
         background-color: rgb(23, 17, 37);
         font-family: 'Oswald', sans-serif;
-        font-size: 2.2vw;
+        font-size: 3vw;
         overflow: scroll;
         
     
@@ -194,7 +194,7 @@ col{
         background: cyan;
     }
     body h1{
-        font-size: 2.2vw;
+        font-size: 3vw;
     }
 
   }
