@@ -200,21 +200,21 @@ col{
         width: 100%;
         background-color: rgb(23, 17, 37);
         font-family: 'Oswald', sans-serif;
-        font-size: 5vw;
+        font-size: 4.4vw;
         overflow: scroll;
         
     
     }
     
     body h1{
-        font-size: 5.8vw;
+        font-size: 4.8vw;
     }
 
     .nameplate{
         font-size: 10vw;
     }
     .hl{
-        font-size : 7.5vw;
+        font-size : 8vw;
     }
 
   }
