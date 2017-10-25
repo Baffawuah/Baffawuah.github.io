@@ -179,7 +179,7 @@ col{
 
   }
 
-  @media screen and (max-width: 780px){
+  @media all and (orientation : portrait){
     body,html{
         height:100%;
         width: 100%;
@@ -189,6 +189,9 @@ col{
         overflow: scroll;
         
     
+    }
+    .portfolio{
+        background-color: red;
     }
     body h1{
         font-size: 1.8vw;
