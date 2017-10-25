@@ -1,8 +1,9 @@
 body,html{
     height:100%;
+    width: 100%;
     background-color: rgb(23, 17, 37);
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 100%;
     overflow: visible;
 
 }
@@ -51,6 +52,8 @@ hr{
     text-align: center;
     color: #E7DfDD;
     background-color: rgba(23, 17, 37,0.5);
+    padding: 20%;
+    margin: 5px;
 
 
 }
@@ -66,7 +69,7 @@ hr{
     background-color: #676EB0;
     padding: 20px;
     border-radius: 10px;
-    font-size: 1.5em;
+    font-size: 180%;
 }
 
 .about:h2{
@@ -123,20 +126,6 @@ col{
     border-width: 3px;
     border-color:#A239CA;
 }
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-tr:nth-child(odd){
-    color:#E7DfDD;
-
-}
 .shift{
     padding-top: 10%;
 }
@@ -150,6 +139,15 @@ tr:nth-child(odd){
     border-color: black;
 }
 
+.contactpin{
+    font-size:30px; 
+}
+.contacttbl{
+    border-color: black;
+    border: solid;
+    font-size: 30px;
+    height: 100px;
+}
 
 .arrow {
     background: rgba(0,0,0,0);
