@@ -177,9 +177,22 @@ col{
 
 }
 
-  .portfolio h1{
+.gitbtn{
+    color: #E7DfDD;
+    background-color: hotpink;
+    border-radius: 10px; 
+    width: 20%;
 
-  }
+}
+
+.penbtn{
+    color: #E7DfDD;
+    background-color:#A239CA;
+    border-radius: 10px;
+    width: 20%;
+}
+
+
 
   @media all and (orientation : portrait){
     body,html{
@@ -207,3 +220,4 @@ col{
     }
 
   }
+
