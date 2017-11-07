@@ -21,6 +21,10 @@ body{
 
 }
 
+.navbar{
+    font-size: 140%;
+
+}
 .frontimg{
     width: 30%;
 }
@@ -33,3 +37,14 @@ body{
 .info-blue{
     background-color: grey;
 }
+
+.btn-circle {
+    width: 5%;
+    height: 5%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 110%;
+    line-height: 1.428571429;
+    border-radius: 100%;
+  }
