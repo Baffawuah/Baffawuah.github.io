@@ -48,3 +48,13 @@ body{
     line-height: 1.428571429;
     border-radius: 100%;
   }
+.logo{
+    width: 10%;
+    margin: 5px;
+}
+
+.active{
+    border-bottom: solid;
+    border-color: royalblue;
+    border-bottom-width: 3px;
+}
