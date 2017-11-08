@@ -6,7 +6,13 @@ body{
 }
 
 .front{
-    background-color: rgb(224, 171, 47);
+    background-image: url('Asset/images/City-grey.png');
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
 }
 
 
@@ -43,7 +49,7 @@ body{
     height: 4%;
     text-align: center;
     padding: 4px;
-    margin: 4px;
+    margin: 3px;
     font-size: 110%;
     line-height: 1.428571429;
     border-radius: 100%;
@@ -57,4 +63,16 @@ body{
     border-bottom: solid;
     border-color: royalblue;
     border-bottom-width: 3px;
+}
+
+.footer{
+    text-align: right;
+    font-size: 110%;
+    background-color: gray;
+    color: white;
+    padding: 8px;
+}
+.ftrbtn{
+    background-color: transparent;
+    border: none;
 }
