@@ -36,12 +36,12 @@ body{
 }
 
 .info-red{
-    background-color:rebeccapurple;
+    background-color:rgba(54, 11, 11, 0.75)
 
 }
 
 .info-blue{
-    background-color: grey;
+    background-color: rgba(22, 39, 85, 0.75);
 }
 
 .btn-circle {
