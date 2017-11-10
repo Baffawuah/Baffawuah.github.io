@@ -66,7 +66,7 @@ body{
 
 .footer{
     text-align: right;
-    font-size: 110%;
+    font-size: 170%;
     background-color: gray;
     color: white;
     padding: 8px;
@@ -82,7 +82,7 @@ nav{
 
 .col{
     margin: 5px;
-    height: 38%;
+    height: 40%;
     font-size: 120%;
     padding: 8px;
 }
@@ -115,8 +115,24 @@ nav{
 
 .artist h1{
     left: 20%;
+    top: 20%;
     position: absolute;
     text-align: center;
     background: rgba(0, 0, 0, 0.75);
     color: rgb(224, 171, 47);
+}
+
+.announce{
+    background-color: rgb(5, 3, 10);
+    padding: 80px;
+}
+
+.announce h1{
+    text-align: center;
+    color: rgb(224, 171, 47);
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.announce span{
+    background: rgba(0, 0, 0, 0.75);
 }
