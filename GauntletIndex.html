@@ -1,160 +1,119 @@
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="GauntletIndex.css">
-    <link rel="stylesheet" href="Asset\font-awesome-4.7.0\css\font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet">
-
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
+  <!-- Style section -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="GauntletIndex.css">
+  <link rel="stylesheet" href="Asset\font-awesome-4.7.0\css\font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet">
 
-    <title>Gauntlet Mock up</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/gauntletflex.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+  <title>Gauntlet Records</title>
 </head>
 <body class = 'front'>
-    <div class = 'container'>
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <img class = 'logo'src="Asset\images\InnerLogo11000x1000.png" alt="" srcset="">
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Releases</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="/GauntletContact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                  </ul>
+
+
+  <div class = 'container'>
+      <nav class="navbar-toggleable-md navbar-light bg-faded navbar" >
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="toggle fa fa-angle-double-down" aria-hidden="true"></i>
+              </button>
+              <img class = 'logo'src="Asset\images\InnerLogo11000x1000.png" alt="" srcset="">
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="releases.html">Releases</a>
+                  </li>
+
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="artists.html">Artists</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://thearmorybygauntlet.bigcartel.com/" target="_blank">Armory</a>
+                  </li>
+
+
+                </ul>
+
+                <button onclick="window.location.href = 'https://www.facebook.com/gauntletrecords' " type="button" class="btn btngauntlet btn-circle"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                <button onclick="window.location.href = 'https://www.soundcloud.com/gauntletrecords'"type="button" class="btn btngauntlet btn-circle"><i class="fa fa-soundcloud" aria-hidden="true"></i>
+                <button onclick="window.location.href = 'https://www.twitter.com/gauntletrecords'" type="button" class="btn btngauntlet btn-circle"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                <button onclick="window.location.href = 'https://www.instagram.com/gauntletrecords​'" type="button" class="btn btngauntlet btn-circle"><i class="fa fa-instagram" aria-hidden="true"></i></button>
+              </div>
+            </nav>
+  </div>  
   
-                  <button onclick="window.location.href = 'https://www.instagram.com/gauntletrecords​'" type="button" class="btn btn-default btn-circle"><i class="fa fa-instagram" aria-hidden="true"></i></button>
-           
-                  <button onclick="window.location.href = 'https://www.facebook.com/gauntletrecords'" type="button" class="btn btn-primary btn-circle"><i class="fa fa-facebook" aria-hidden="true"></i></button>
-                  <button onclick="window.location.href = 'https://www.soundcloud.com/gauntletrecords'" type="button" class="btn btn-warning btn-circle"><i class="fa fa-soundcloud" aria-hidden="true"></i>
-                  <button onclick="window.location.href = 'https://www.twitter.com/gauntletrecords'" type="button" class="btn btn-info btn-circle"><i class="fa fa-twitter" aria-hidden="true"></i></button>
-                </div>
-              </nav>
-    </div>              
-    <!--  The body of the page starts down here-->
-    <div>
-        <div class = 'container'>
-            <!-- Top section with Record label text-->
-            <div class = ''>
-                <div>
-                    <div class="mySlides frontplate">
+  
 
-                        <img class = 'frontimg'src="Asset\images\InnerLogo11000x1000.png" alt="" srcset="">
-                        <h1>Gauntlet Records</h1>
-                        <h2>Subheading for this section</h2>
-                        <h3>some more Stuff to fill this out</h3>
-                        <p>more text just to fill it up so i can see whats going on</p> 
-                      
-
-                    </div>
-                  
-
-                  
-                    <div class="mySlides info-red frontplate">
-                      <h1>Random title on this thingo</h1>
-                      <h2>Some information goes here i suppose</h2>
-                      <p>To Be decided at a later date</p>
-                    </div>
-
-                    <div class="mySlides info-blue frontplate">
-                        <h1>Another slide</h1>
-                        <h2>A link to something could go here</h2>
-                        <p>To Be decided at a later date</p>
-                    </div>
-
-                  </div>
-
-
-          <div class = 'container'>
-            <div class = 'table'>
-              <div class = 'row'>
-              <!--Artist Carousel -->
-
-
-                <div class = 'text-center announce col '>
-
-                  <span><h1>Announcements(?)</h1></span>
-                  Soon (tm)
-
-                </div>
-
-
-
-
-                <div class = 'col artist'>
-                
+  <!--  The body of the page starts down here-->
+  <div>
+      <div class = 'container'>
+          <!-- Top section with Record label text-->
+          <div class = ''>
+              <div>
               
-                  <div id="demo" class="carousel slide" data-ride="carousel">
-                      
-                        <!-- Indicators -->
-                        <ul class="carousel-indicators">
-                          <li data-target="#demo" data-slide-to="0" class="active"></li>
-                          <li data-target="#demo" data-slide-to="1"></li>
-                          <li data-target="#demo" data-slide-to="2"></li>
-                        </ul>
-                        
-                        <!-- The slideshow -->
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                              <div class = 'imgfield'>
-                                  <span class = 'helper'></span><img class = 'img-fluid'src="Asset/images/Bogman.jpg" alt="" height="100px">
-                                  </div>
+                  <div class="mySlides frontplate">
+
+    <h1>Latest and Greatest</h1>
+    <br>
+                    
+    <div class ="video-container">
+    <iframe width="854" height="480" style="-webkit-transform:scale(0.7);-moz-transform-scale(0.7);" src="https://www.youtube.com/embed/jE9Lb0A0bn4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+    </div>
+
+   
+                  </div>
                 
-                                  <h1>BogMan </h1>
-                          </div>
 
-
-
-                          <div class="carousel-item">
-                              <div class = 'imgfield'>
-                                  <span class = 'helper'></span><img class = 'img-fluid'src="Asset/images/Xen2017.jpg" alt="Xen">
-                                  </div>
                 
-                                  <h1>Xen </h1>
-                          </div>
+               
 
-
-
-                          <div class="carousel-item">
-                              <div class = 'imgfield'>
-                                  <span class = 'helper'></span><img class = 'img-fluid'src="Asset/images/Elvis.jpg" alt="BogMan">
-                                  </div>
-                
-                                  <h1>Elvis Xhema</h1>
-                          </div>
-
-                        </div>
-                        
-                        <!-- Left and right controls -->
-                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                          <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#demo" data-slide="next">
-                          <span class="carousel-control-next-icon"></span>
-                        </a>
-                      </div>
-                   
                 </div>
-            </div>
+
+
+        <div class = 'container'>
+          <div class = 'table'>
+            <div class = 'row'>
+            <!--Artist Carousel -->
+
+
+              <div class = 'text-center announce col '>
+
+                <h1>Launch Day</h1>
+                Follow us on all of our Social media for future updates!
+
+              </div>
+
+
+
+
+              <div class = 'col artist'>
+              
+            
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    
+                     
+
+                </div>
+                 
+              </div>
           </div>
+        </div>
 
 
 
@@ -162,16 +121,20 @@
 
 
 
+          </div>
+      </div>
+  </div>
+
+  <div class = 'container'>
+      <div class = 'footer text-center'>
+              <div class = 'inner'>
+              <button type = 'button' class = ' demo' onclick="window.location.href = 'https://goo.gl/forms/XCe140KrVof8D9Gg2'"> Demo Submission <i class="fa fa-angle-double-right" aria-hidden="true"></i></button> <br>
+              </div>
+              <div class = 'inner'>
+              <button type = 'button' class = 'contactbtn' onclick="window.location.href = '/GauntletContact.html'" > <i class="fa fa-exclamation-circle" aria-hidden="true"></i> Contact us </button>
+              </div>
             </div>
-        </div>
-    </div>
-
-    <div class = 'container'>
-        <div class = 'footer'>
-                <button class = 'ftrbtn'>Demo Submission</button>
-                <button class = 'ftrbtn'>Contact</button>
-        </div>
-    </div>
+  </div>
 
 
 
@@ -186,15 +149,16 @@ var slideIndex = 0;
 carousel();
 
 function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 4000); 
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  //Changing the time the slides are up
+  setTimeout(carousel, 4000); 
 }
 </script>
 

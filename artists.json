@@ -1,0 +1,49 @@
+{
+    "artists" : 
+        [
+            {   
+                "name" : "Xen",
+                "picture" : "Xen2017.jpg",
+                "sc" : "xendnb",
+                "fb" : "xensound",
+                "desc" : "Ryan Pattison (also known as Xen) is an electronic producer from Darwin, Australia and has been refining his skills for just over 5 years. Only aged 18 Xen has already gained support by an artist collective known as \"Bangersound\" he has been constantly learning new production techniques and developing his sound to appeal to a wider audience of electronic music. Xen is frequently experimenting with different techniques to refine his production skills. By fusing atmospheric elements, melodic symphonies and deep basslines together, Xen creates a fulfilled sound that will satisfy your ears. He is highly inspired by many artists such as Xilent, Noisia, Herzeloyde, deadmau5, all artists within Bangersound, and shows no sign of slowing down. On November 9th 2017, His first official debut \"Antimatter EP\" was released on Gauntlet Records. Each track contains his unique style and musical influences. Xen plans to expand on his production style a whole lot more and is aiming to provide everyone the opportunity to listen to, enjoy and become inspired by his work"
+            },
+            {   
+                "name" : "BogMan",
+                "picture" : "Bogman.jpg",
+                "sc" : "bogmanthebeast",
+                "fb" : "bogmanthebeast",
+                "desc" : "Victoria, BC-based producer and selector of fine jungle, reggae, dancehall, dub, and techno. Formerly known as Ebola Soulja"
+            },
+            {   
+                "name" : "Elvis Xhema",
+                "picture" : "Elvis.jpg",
+                "sc" : "dzemaelvis",
+                "fb" : "XhemaElvis",
+                "tw" : "ElvisXhema",
+
+
+                "desc" : "Elvis Xhema born in Zenica (Bosnia & Herzegovina) Started mixing and producing his own tracks at a young age. Showing a great adjustment, Elvis Xhema is not only known by his unique Techno but also by his skillz with any other genre. Elvis Xhema has made his name with Deep driven techno sets, and currently is a resident DJ of Electronic SOUL Underground event in Croatia. Never afraid to go too deep, his emotive musical selections are his own therapy."
+            },
+            {   
+                "name" : "Claude Wolfenstein",
+                "picture" : "ClaudeWolfenstein_Desktop_Transparent_1960x1080.png",
+                "sc" : "claudewolfenstein",
+                "fb" : "claudewolfenstein",
+                "tw" : "cldewolfenstein",
+                "desc" : "Claude Wolfenstein puts a cheeky twist on the current EDM trend for a blend of tasteful grooves to find on your plate. Based out of Victoria, BC, these bass sounds are something you don’t want to miss. His passion for electronica music, synthesizers, and audio gimmicks are what bring these eclectic tunes from his studio to your ears."
+            }, 
+                      
+            {   
+                "name" : "lunarfox",
+                "picture" : "ClaudeWolfenstein_Desktop_Transparent_1960x1080.png",
+                "sc" : "lunarfox",
+                "fb" : "lunarfox",
+                "tw" : "lunarfox",
+                "desc" : "lunarfox's biography will go here"
+            }
+            
+            	
+        ]
+}
+ 

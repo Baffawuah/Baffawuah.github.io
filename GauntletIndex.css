@@ -1,18 +1,60 @@
+html{
+    font-size:100%;
+}
+@media(min-width: 60em){
+    html{
+        font-size: 100%;
+    }
+}
+
 body{
     height: 100%;  
     width: 100%;
     font-family: 'Nobile', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
 
 }
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+    
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+
+
 .front{
     background-image: url('Asset/images/City-grey.png');
+    background-color: black;
     position: relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
+}
+
+.releaseimg{
+    min-width: 200px;
+    max-width: 50%;
+}
+
+.carousel-item{
+    text-align: center;
 }
 
 
@@ -20,17 +62,63 @@ body{
     background-color: rgba(35, 35, 35, 0.85);
     color: rgb(224, 171, 47);
     padding: 3%;
-    height: 70%;
     border-radius: 1.2%;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 10%;
     margin-top: 1%;
 }
 
 .navbar{
     font-size: 130%;
-
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
 }
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
+    color: rgb(224, 171, 47);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(224, 171, 47);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(224, 171, 47);
+}
+
+.navbar-light .navbar-nav .nav-link:before {
+    color: rgb(224, 171, 47);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: rgb(224, 171, 47);
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .25s linear;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:before,
+.navbar-light .navbar-nav .nav-link:focus:before{
+    visibility: visible;
+    transform: scaleX(1);   
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  * {margin:0;padding:0;border:0 none;position: relative; outline: none;
+  }
+
+
+
+.fa-angle-double-down:before {
+    color: rgb(224, 171, 47);
+    font-size: 240%
+}
+
 .frontimg{
     width: 30%;
 }
@@ -45,7 +133,9 @@ body{
 }
 
 .btn-circle {
-    width: 4%;
+    width: 5%;
+    min-width: 50px;
+    min-height: 40px;
     height: 4%;
     text-align: center;
     padding: 4px;
@@ -54,29 +144,36 @@ body{
   }
   
 .logo{
-    width: 7%;
+    object-fit: scale-down;
+    width: 9%;
+    height: auto;
     margin-right: 10px;
+    min-height: 50px;
+    min-width: 50px;
 }
 
 .active{
     border-bottom: solid;
-    border-color: royalblue;
+    border-color:  rgb(224, 171, 47);
     border-bottom-width: 5px;
 }
 
 .footer{
-    text-align: right;
+    text-align: center;
     font-size: 170%;
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 8px;
 }
-.ftrbtn{
-    background-color: transparent;
-    border: none;
+
+.inner{
+    display: inline-block;
 }
+
 nav{
+    padding: 1%;
     margin-top: 1%;
+    min-height: 80px;
 }
 
 
@@ -97,25 +194,36 @@ nav{
 }
 
 .img-fluid{
-    height:95%;
+    display: block;
+    height: auto;
+    width: auto;
+    min-width: auto;
+    min-height: auto;
+    max-height: 100%;
+    max-width: 100%;
     position: absolute;
     left: 50%;
-    top: 50%;
-    -webkit-transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
     overflow: hidden;
    
 }
 
 .imgfield{
 
+    display:inline-block;
     height: 100%; /* or other desired height */
+    width: 100%;
+    min-width: 350px;
     overflow: hidden;
     
 }
 
 .artist h1{
     left: 20%;
-    top: 20%;
+    top: 70%;
     position: absolute;
     text-align: center;
     background: rgba(0, 0, 0, 0.75);
@@ -129,10 +237,64 @@ nav{
 
 .announce h1{
     text-align: center;
+    
     color: rgb(224, 171, 47);
     background: rgba(0, 0, 0, 0.65);
 }
 
-.announce span{
-    background: rgba(0, 0, 0, 0.75);
+.contact{
+    margin-top: 15px;
+    color: rgb(224, 171, 47);
+    background-color: rgba(5, 3, 10,0.95);
+    font-size: 120%;
+    border-radius: 20px;
+}
+
+
+.contact hr{
+    width: 80%;
+    border: 1px rgb(224, 171, 47) solid;
+}
+
+.contactpage{
+    background: rgb(49, 82, 82);
+}
+
+.contactbtn{
+    border: rgb(224, 171, 47) 3px solid;
+    background-color: rgb(5, 3, 10);
+    color: rgb(224, 171, 47);
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.demo{
+    background-color: rgb(224, 171, 47);
+    border: 3px solid white;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btngauntlet{
+    color: rgb(224, 171, 47);
+    background-color: black; 
+    border: rgb(224, 171, 47) 2px solid;
+    cursor: pointer;
+
+    -webkit-transition: color 1s;
+    -webkit-transition: background-color 1s;
+}
+
+
+.btngauntlet:hover{
+    color: black;
+    background-color: rgb(224, 171, 47);
+}
+
+
+.carousel-indicators{
+    bottom: 1px;
 }

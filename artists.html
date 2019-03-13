@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+    <title>Artists</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="GauntletIndex.css">
+ 
+    
     <link rel="stylesheet" href="Asset\font-awesome-4.7.0\css\font-awesome.min.css">
+    <link rel="stylesheet" href="artists.css">
+    <link rel="stylesheet" href="GauntletIndex.css">
+
     <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> 
-        
-    <title>Contact us!</title>
-</head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="artists.js"></script>
 
-<body class = "contactpage">
+
+
+
+</head>
+<body>
     
   <div class = 'container'>
     <nav class="navbar-toggleable-md navbar-light bg-faded navbar" >
@@ -28,57 +36,62 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="releases.html">Releases</a>
                 </li>
 
 
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="artists.html">Artists</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="https://thearmorybygauntlet.bigcartel.com/" target="_blank">Armory</a>
+                  <a class="nav-link" href="https://gauntletrecords.bandcamp.com/merch/">Armory</a>
                 </li>
 
 
               </ul>
 
-              <button onclick="window.location.href = 'https://www.facebook.com/gauntletrecords' " type="button" class="btn btngauntlet btn-circle"><i class="fa fa-facebook" aria-hidden="true"></i></button>
-              <button onclick="window.location.href = 'https://www.soundcloud.com/gauntletrecords'"type="button" class="btn btngauntlet btn-circle"><i class="fa fa-soundcloud" aria-hidden="true"></i>
+              <button onclick="window.location.href = 'https://www.facebook.com/gauntletrecords'" type="button" class="btn btngauntlet btn-circle"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+              <button onclick="window.location.href = 'https://www.soundcloud.com/gauntletrecords'" type="button" class="btn btngauntlet btn-circle"><i class="fa fa-soundcloud" aria-hidden="true"></i>
               <button onclick="window.location.href = 'https://www.twitter.com/gauntletrecords'" type="button" class="btn btngauntlet btn-circle"><i class="fa fa-twitter" aria-hidden="true"></i></button>
               <button onclick="window.location.href = 'https://www.instagram.com/gauntletrecords​'" type="button" class="btn btngauntlet btn-circle"><i class="fa fa-instagram" aria-hidden="true"></i></button>
             </div>
           </nav>
-</div>       
+</div> 
 
 
 
+<div class = "container" >
 
-    <div class = 'container'>
-        <div class = " text-center jumbotron contact">
-            <h1 class = "text-center">Contact us:</h1>
-            <hr>
-            
-            <img class = 'logo'src="Asset/images/InnerLogo11000x1000.png" alt="Gauntlet icon">
-            <P class = "text-center">Gauntlet Records</P>
-            <p>Victoria, BC</p>
-            <p>Canada</p>
+    <div class = 'jumbotron'>
+      <h1 class = 'text-center'>Artists</h1>
+      <hr>
+        
+        <div class = 'table' id ='aTable'>
 
-            <hr>
-            Have any questions? Reach us using any of the social media links or feel free to Email
-            <br>
-            <br>
-            <p>Director: Claude Wolfenstein</p>
-            <p>Email : lore@gauntletrecords.com</p>
-            
+          <!-- WHERE THE ARTIST ICONS ARE ATTACHED WITH THE JAVASCRIPT artists.js -->
+          <!-- EDIT THE ARTISTS IN artists.json, following the template-->
+
         </div>
+    
+    </div>
 
+
+
+    <div class = "jumbotron" id = "aiz">
+
+      <!-- area where the table is rendered -->
 
 
     </div>
-</body>
 
+</div>
+
+
+
+
+</body>
 </html>
